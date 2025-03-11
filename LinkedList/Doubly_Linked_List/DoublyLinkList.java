@@ -58,7 +58,7 @@ public class DoublyLinkList {
             while(ind<size){
                 System.out.print(tempnode.value);
                 if(tempnode.next!=null){
-                    System.out.print("->");
+                    System.out.print("<-->");
                 }
                 tempnode=tempnode.next;
                 ++ind;
